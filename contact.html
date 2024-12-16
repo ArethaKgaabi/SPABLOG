@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+  </head>
+  <body>
+    <a href="home.html" target="_blank">Home</a>
+
+    <a href="about.html" target="_blank">About</a>
+    <a href="contact.html" target="_blank">Contact</a>
+    <h1>CONTENT YET TO BE LOADED</h1>
+
+    <script>
+      function booking() {
+        let name = prompt("Please enter your name");
+        let surName = prompt("please enter your Surname");
+        let number = prompt("please enter you cell phone number");
+        let email = prompt("please enter your email address");
+        alert(
+          "Hi " + name + "" + surName + " we will send you a confirmation email"
+        );
+      }
+      booking();
+      let bookingButtton = document.querySelector("button");
+      bookingButtton.addEventListener("click", booking);
+    </script>
+  </body>
+</html>

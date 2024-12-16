@@ -1,0 +1,95 @@
+/* background color nad page fonts color */
+body {
+  background-color: rgb(237, 235, 235);
+  color: black;
+}
+
+/* styling the heading-1 */
+h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* styling the heading-2 */
+h2 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  border: 2px solid rgb(42, 41, 41);
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+/* styling the heading-3 */
+h3 {
+  text-align: center;
+}
+/* styling the heading-6 */
+h6 {
+  font-size: x-small;
+  font-style: italic;
+  text-align: center;
+}
+/* Styling mession statement */
+.mission {
+  display: block;
+  text-align: left;
+  color: black;
+  margin: 20px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  color: rgb(12, 1, 1);
+  border-radius: 10px;
+  background-color: rgb(196, 119, 161);
+  border: 2px solid #dc5cfc;
+}
+/* aligning the list */
+ul {
+  list-style: none;
+  text-align: left;
+  padding-bottom: 45px;
+  position: fixed;
+}
+/* aligning the list */
+li {
+  display: inline;
+  word-spacing: 25px;
+}
+.booking {
+  text-decoration-line: none;
+  color: black;
+}
+.about {
+  text-decoration-line: none;
+  color: black;
+}
+.contact {
+  text-decoration-line: none;
+  color: black;
+}
+.home {
+  text-decoration-line: none;
+  color: black;
+}
+.email {
+  text-decoration-line: none;
+  color: black;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+img {
+  border-radius: 40px;
+}
+#contact {
+  text-align: left;
+}
